@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EB21A7662233C025000282DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB21A7652233C025000282DD /* AppDelegate.swift */; };
 		EB21A7682233C025000282DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB21A7672233C025000282DD /* ViewController.swift */; };
-		EB21A76B2233C025000282DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB21A7692233C025000282DD /* Main.storyboard */; };
 		EB21A76D2233C026000282DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB21A76C2233C026000282DD /* Assets.xcassets */; };
 		EB21A7702233C026000282DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB21A76E2233C026000282DD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		EB21A7622233C025000282DD /* coderSwagProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coderSwagProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB21A7652233C025000282DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB21A7672233C025000282DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB21A76A2233C025000282DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB21A76C2233C026000282DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB21A76F2233C026000282DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB21A7712233C026000282DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				EB21A7652233C025000282DD /* AppDelegate.swift */,
 				EB21A7672233C025000282DD /* ViewController.swift */,
-				EB21A7692233C025000282DD /* Main.storyboard */,
 				EB21A76C2233C026000282DD /* Assets.xcassets */,
 				EB21A76E2233C026000282DD /* LaunchScreen.storyboard */,
 				EB21A7712233C026000282DD /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				EB21A7702233C026000282DD /* LaunchScreen.storyboard in Resources */,
 				EB21A76D2233C026000282DD /* Assets.xcassets in Resources */,
-				EB21A76B2233C025000282DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB21A7692233C025000282DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB21A76A2233C025000282DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB21A76E2233C026000282DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.efthimiosvasilopoulos.coderSwagProgrammatically;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.efthimiosvasilopoulos.coderSwagProgrammatically;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
